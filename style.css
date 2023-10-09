@@ -16,3 +16,8 @@ body {
 .container p{
     color: #e7e7e7;
 }
+
+img{
+    width: 70px;
+    height: 70px;
+}
