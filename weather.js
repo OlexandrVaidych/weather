@@ -16,8 +16,8 @@ fetch(apiUrl)
     .then(data => {
         name.innerHTML = data.name;
         main.innerHTML = data.weather[0].main;
-        temperature.innerHTML = (data.main.temp - 273.15).toFixed(2);
-        feelsLike.innerHTML = `Feels like: ${(data.main.feels_like - 273.15).toFixed(2)}`;
+        temperature.innerHTML = `${(data.main.temp - 273.15).toFixed(2)} °C`;
+        feelsLike.innerHTML = `Feels like: ${(data.main.feels_like - 273.15).toFixed(2)} °C`;
     })
     .catch(error => {
         console.error('Error:', error);
