@@ -21,3 +21,17 @@ img{
     width: 70px;
     height: 70px;
 }
+
+.indexes{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.name p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
